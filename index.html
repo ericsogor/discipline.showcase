@@ -1,66 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Discipline Showcase | [Your Name]</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Discipline showcase: C++, Data Science, and Web Foundations — portfolio of Eric Sogor." />
+    <title>Discipline Showcase | Eric Sogor</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
     <div class="container">
-        <header>
+        <header role="banner">
             <h1>DISCIPLINE SHOWCASE</h1>
-            <p>Applied Problem Solving across C++, Data Science, and Web Structure.</p>
+            <p>Applied problem solving across C++, Data Science, and Web Foundations.</p>
+
+            <nav aria-label="social links" class="social-nav">
+                <ul class="social-links">
+                    <li><a href="https://github.com/ericsogor" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                    <li><a href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                </ul>
+            </nav>
         </header>
 
-        <section id="discipline-cpp" class="discipline">
-            <h2>C++: ALGORITHMIC EFFICIENCY</h2>
-            <p class="outcome-statement">The core discipline focused on computational performance, optimization, and rigorous problem-solving.</p>
-            
-            <div class="focus-area">
-                <h4>ACHIEVEMENT: Mastery of Fundamentals</h4>
-                <ul>
-                    <li>**Skill Acquired:** Strong grasp on the essentials of C++ necessary for competitive programming (data structures, time complexity).</li>
-                    <li>**Result:** Ability to translate complex problems into efficient, optimized code, as proven through algorithmic challenges.</li>
-                </ul>
-            </div>
-        </section>
+        <main>
+            <section id="discipline-cpp" class="discipline">
+                <h2>C++: Algorithmic Efficiency</h2>
+                <p class="outcome-statement">The core discipline focused on computational performance, optimization, and rigorous problem-solving.</p>
 
-        <section id="discipline-data" class="discipline">
-            <h2>PYTHON & DATA SCIENCE: INSIGHT GENERATION</h2>
-            <p class="outcome-statement">Leveraging data processing tools to transform raw information into clear, actionable insights and predictive models.</p>
-            
-            <div class="focus-area">
-                <h4>ACHIEVEMENT: Data Pipeline Proficiency</h4>
-                <ul>
-                    <li>**Skill Acquired:** Proficient use of Pandas and NumPy for comprehensive data cleaning, transformation, and aggregation.</li>
-                    <li>**Result:** Successfully processed and analyzed raw, public datasets to derive valuable conclusions, building a solid foundation in the Data Science pipeline.</li>
-                </ul>
-            </div>
-        </section>
-        
-        <section id="discipline-web" class="discipline">
-            <h2>WEB FOUNDATIONS: COMMUNICATION STRUCTURE</h2>
-            <p class="outcome-statement">Building functional and aesthetically sound user interfaces to effectively communicate technical projects and results.</p>
-            
-            <div class="focus-area">
-                <h4>ACHIEVEMENT: Interface Development</h4>
-                <ul>
-                    <li>**Skill Acquired:** HTML5 and CSS3 syntax successfully reviewed and applied.</li>
-                    <li>**Result:** Development of this portfolio site as a demonstration of clean, semantic code and modern, minimalist design principles.</li>
-                </ul>
-            </div>
-        </section>
+                <div class="focus-area">
+                    <h3>Achievement: Mastery of fundamentals</h3>
+                    <ul>
+                        <li><strong>Skill acquired:</strong> Strong grasp of essential C++ topics for competitive programming (data structures, time complexity).</li>
+                        <li><strong>Result:</strong> Ability to translate complex problems into efficient, optimized implementations demonstrated through algorithmic challenges.</li>
+                    </ul>
+                </div>
+            </section>
 
-        <div class="future-focus">
-            <h3>CURRENT FOCUS / NEXT MISSION</h3>
-            <p class="orange-spark">**Next Targets:** Feature Engineering, Advanced Algorithms, & JavaScript Implementation.</p>
-        </div>
+            <section id="discipline-data" class="discipline">
+                <h2>Python &amp; Data Science: Insight Generation</h2>
+                <p class="outcome-statement">Leveraging data processing tools to transform raw information into clear, actionable insights and predictive models.</p>
 
-        <footer>
-            <div class="container">
-                <p>Mission Log: Active | Connect: [GitHub Link] | [LinkedIn Link]</p>
-            </div>
+                <div class="focus-area">
+                    <h3>Achievement: Data pipeline proficiency</h3>
+                    <ul>
+                        <li><strong>Skill acquired:</strong> Proficient use of Pandas and NumPy for data cleaning, transformation, and aggregation.</li>
+                        <li><strong>Result:</strong> Processed and analyzed public datasets to derive actionable conclusions and build a foundation in the data pipeline.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="discipline-web" class="discipline">
+                <h2>Web Foundations: Communication Structure</h2>
+                <p class="outcome-statement">Building functional and aesthetically sound user interfaces to effectively communicate technical projects and results.</p>
+
+                <div class="focus-area">
+                    <h3>Achievement: Interface development</h3>
+                    <ul>
+                        <li><strong>Skill acquired:</strong> Solid HTML5 and CSS3 semantics and layout techniques.</li>
+                        <li><strong>Result:</strong> This portfolio site demonstrates clean, semantic markup and modern, minimalist design principles.</li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+
+        <aside class="future-focus" aria-labelledby="future-focus-heading">
+            <h3 id="future-focus-heading">Current focus / next mission</h3>
+            <p class="orange-spark"><strong>Next targets:</strong> Feature engineering, advanced algorithms, JavaScript implementation.</p>
+        </aside>
+
+        <footer role="contentinfo">
+            <p>Mission Log: Active | Connect: <a href="https://github.com/ericsogor" target="_blank" rel="noopener noreferrer">GitHub</a> | <a href="#">LinkedIn</a></p>
         </footer>
     </div>
 </body>
