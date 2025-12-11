@@ -1,5 +1,5 @@
 /* --- style.css (Grey → Black, Orange Spark) --- */
-/* Updated to match the simplified HTML (no social links). 
+/* Matches the simplified index.html (no level/achievement framing).
    Smooth vertical grey→black background, near-white text, and selective orange accents.
    Tweak variables at the top to change tones. */
 
@@ -116,7 +116,7 @@ header p {
     box-shadow: 0 6px 14px rgba(178,103,0,0.08);
 }
 
-/* Links (kept minimal, no social links present) */
+/* Links */
 a {
     color: var(--accent);
     text-decoration: none;
